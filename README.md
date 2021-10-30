@@ -34,3 +34,4 @@
   - Exemplo: git pull local master
 - **Criar uma branch local** git branch NOME_BRANCH
 - **Mudar de branch** git checkout NOME_BRANCH
+- **Juntar duas branches** git merge NOME_BRANCH
