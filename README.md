@@ -1,8 +1,29 @@
 # Comandos
 
 - **Exibir configurações:** git config --list
+- **Exibir valor de uma configuração:** git config PROPRIEDADE
+- **Alterar configuração somente no repositório:** git config --local PROPRIEDADE VALOR
+- **Alterar configuração em todos os repositórios:** git config --global PROPRIEDADE VALOR
 - **Iniciar repositório local:** git init
 - **Exibe status do repositório:** git status
 - **Adiciona um arquivo na monitoração:** git add FILE_NAME
 - **Adiciona todos os arquivos na monitoração:** git add .
 - **Comitar arquivos da monitoração:** git commit -m "MENSAGEM"
+- **Exibir commits:** git log
+- **Exibir commits resumido:** git log --oneline
+- **Exibir commits com alterações:** git log -p
+- **Cria repositório remoto (local):** git init --bare
+- **Exibe repositórios remotos conhecidos:** git remote
+- **Adiciona repositório remoto:** git remote add NOME_REPOSITORIO_REMOTO ENDERECO
+  - Exemplo: git remote add local /c/git/server/ (pode ser endereço web)
+- **Exibe endereço do repositório remoto:** git remote -v
+  - fetch: Local onde vai buscar os dados
+  - pish: Local onde vai enviar os dados
+  - Obs.: Normalmente são iguais
+- **Clonar repositório** git clone ENDERECO_GIT NOME_PASTA
+  - Exemplo: git clone /c/git/server/ aprendendo-git
+- **Enviar dados para repostório remoto** git push NOME_REPOSITORIO NOME_BRANCH
+  - Exemplo: git push local master
+- **Renomeia repositorio remoto** git remote rename origin local
+- **Pegar os dados de um repositório remoto** git pull NOME_REPOSITORIO NOME_BRANCH
+  - Exemplo: git pull local master
