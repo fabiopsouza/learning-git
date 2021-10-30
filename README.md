@@ -1,1 +1,3 @@
-# learning-git
+# Comandos
+
+- **Exibir configurações:** git config --list
