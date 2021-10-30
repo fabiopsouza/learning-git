@@ -32,3 +32,5 @@
 - **Renomeia repositorio remoto** git remote rename origin local
 - **Pegar os dados de um repositório remoto** git pull NOME_REPOSITORIO NOME_BRANCH
   - Exemplo: git pull local master
+- **Criar uma branch local** git branch NOME_BRANCH
+- **Mudar de branch** git checkout NOME_BRANCH
