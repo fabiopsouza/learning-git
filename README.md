@@ -15,7 +15,9 @@
 - **Cria repositório remoto (local):** git init --bare
 - **Exibe repositórios remotos conhecidos:** git remote
 - **Adiciona repositório remoto:** git remote add NOME_REPOSITORIO_REMOTO ENDERECO
-  - Exemplo: git remote add local /c/git/server/ (pode ser endereço web)
+  - Exemplo remoto local: git remote add local /c/git/server/ (pode ser endereço web)
+  - Exemplo remoto web: git remote add origin https://github.com/fabiopsouza/learning-git.git
+  - Dica: É uma convensão dar o nome de "origin" para o repositório principal
 - **Exibe endereço do repositório remoto:** git remote -v
   - fetch: Local onde vai buscar os dados
   - pish: Local onde vai enviar os dados
@@ -24,6 +26,9 @@
   - Exemplo: git clone /c/git/server/ aprendendo-git
 - **Enviar dados para repostório remoto** git push NOME_REPOSITORIO NOME_BRANCH
   - Exemplo: git push local master
+- **Enviar dados para repostório remoto e salvar branch como padrão para os próximos** git push -u NOME_REPOSITORIO NOME_BRANCH
+  - Exemplo: git push -u local master
+  - Proxima execução poderia fazer somente: git push
 - **Renomeia repositorio remoto** git remote rename origin local
 - **Pegar os dados de um repositório remoto** git pull NOME_REPOSITORIO NOME_BRANCH
   - Exemplo: git pull local master
