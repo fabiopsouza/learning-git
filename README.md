@@ -36,3 +36,17 @@
 - **Mudar de branch:** git checkout NOME_BRANCH
 - **Juntar duas branches:** git merge NOME_BRANCH
 - **Traz os commits de outra branch:** git rebase NOME_BRANCH
+- **Desgazer alteração antes do commit:** git checkout -- NOME_ARQUIVO
+- **Retirar alteração do estado a commitar:** git reset HEAD NOME_ARQUIVO
+- **Desfazer commit (gera novo commit desfazendo):** git revert HASH_DO_COMMIT
+- **Guardar alterações (sem commit):** git stash
+- **Ver alterações que estão guardadas:** git stash list
+- **Aplicar uma alteração guardada:** git stash apply NUMERO_STASH
+- **Apagar stash:** git stash drop
+- **Mostrar alterações entre 2 commits:** git diff NUMERO_COMMIT_INICIO..NUMERO_COMMIT_FIM
+- **Mostrar o que está alterado no código ainda não commitado:** git diff
+- **Definit uma versão para o código no commit atual:** git tag -a NOME_VERSAO -m MENSAGEM_TAG
+
+# Termos
+- **HEAD:** É o ponto atual do código que está visualizando
+- **detached HEAD:** Está trabalhando em uma branch de temporária desanexada do projeto. Qualquer alteração nessa "branch" será descartada
