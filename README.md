@@ -22,16 +22,17 @@
   - fetch: Local onde vai buscar os dados
   - pish: Local onde vai enviar os dados
   - Obs.: Normalmente são iguais
-- **Clonar repositório** git clone ENDERECO_GIT NOME_PASTA
+- **Clonar repositório:** git clone ENDERECO_GIT NOME_PASTA
   - Exemplo: git clone /c/git/server/ aprendendo-git
-- **Enviar dados para repostório remoto** git push NOME_REPOSITORIO NOME_BRANCH
+- **Enviar dados para repostório remoto:** git push NOME_REPOSITORIO NOME_BRANCH
   - Exemplo: git push local master
-- **Enviar dados para repostório remoto e salvar branch como padrão para os próximos** git push -u NOME_REPOSITORIO NOME_BRANCH
+- **Enviar dados para repostório remoto e salvar branch como padrão para os próximos:** git push -u NOME_REPOSITORIO NOME_BRANCH
   - Exemplo: git push -u local master
   - Proxima execução poderia fazer somente: git push
-- **Renomeia repositorio remoto** git remote rename origin local
-- **Pegar os dados de um repositório remoto** git pull NOME_REPOSITORIO NOME_BRANCH
+- **Renomeia repositorio remoto:** git remote rename origin local
+- **Pegar os dados de um repositório remoto:** git pull NOME_REPOSITORIO NOME_BRANCH
   - Exemplo: git pull local master
-- **Criar uma branch local** git branch NOME_BRANCH
-- **Mudar de branch** git checkout NOME_BRANCH
-- **Juntar duas branches** git merge NOME_BRANCH
+- **Criar uma branch local:** git branch NOME_BRANCH
+- **Mudar de branch:** git checkout NOME_BRANCH
+- **Juntar duas branches:** git merge NOME_BRANCH
+- **Traz os commits de outra branch:** git rebase NOME_BRANCH
