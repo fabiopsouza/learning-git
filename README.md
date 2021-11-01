@@ -31,7 +31,7 @@
   - Proxima execução poderia fazer somente: git push
 - **Renomeia repositorio remoto:** git remote rename origin local
 - **Pegar os dados de um repositório remoto:** git pull NOME_REPOSITORIO NOME_BRANCH
-  - Exemplo: git pull local master
+  - Exemplo: git pull local masterG
 - **Criar uma branch local:** git branch NOME_BRANCH
 - **Mudar de branch:** git checkout NOME_BRANCH
 - **Juntar duas branches:** git merge NOME_BRANCH
