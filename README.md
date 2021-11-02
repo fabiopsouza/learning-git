@@ -49,4 +49,4 @@
 
 # Termos
 - **HEAD:** É o ponto atual do código que está visualizando
-- **detached HEAD:** Está trabalhando em uma branch de temporária desanexada do projeto. Qualquer alteração nessa "branch" será descartada
+- **detached HEAD:** Está trabalhando em uma branch temporária, desanexada do projeto. Qualquer alteração nessa "branch" será descartada
